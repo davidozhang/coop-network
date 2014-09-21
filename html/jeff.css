@@ -1,0 +1,49 @@
+.slider-panel{
+	height:100%;
+	width:50%;
+	left:0px;
+	z-index:10;
+	position:absolute;
+}
+
+
+.map-panel{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	position:fixed;
+}
+
+#map-canvas{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	right:0px;
+	z-index:-1;
+	position:absolute;	
+}
+
+html, body{
+	height:100%;
+}
+
+#slider-arrow{
+	background-color:white;
+	height:50px;
+	width:20px;
+	z-index:10;
+	top:400px;
+	left:0%;
+	position:absolute;
+}
+
+.slider-open{
+	transform:scale(-1,1);
+}
+
+.searchResults{
+	width: 50%;
+}
+

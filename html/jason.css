@@ -1,0 +1,28 @@
+.footer {
+    color : blue;
+    background-color: rgba(127,127,127,1);
+    /*padding: 10px, 40px, 10px; */
+    position: fixed;
+    bottom: 0;    
+
+    width: 100%;
+    height: 50px;
+
+}
+
+.footer p{
+	margin-top : 1%;
+}
+
+.filters{
+
+}
+
+.notVisible{
+	visibility: hidden;
+}
+
+.header{
+	position: absolute;
+	z-index: 10;
+}
